@@ -47,7 +47,7 @@ public class RightPanel extends JPanel{
        });
        jp2.add(speedtf);
        jp2.add(jsl);
-       jp2.add(Box.createVerticalStrut(20));
+       jp2.add(Box.createVerticalStrut(60));
     }
 
     public void init(){
@@ -56,7 +56,8 @@ public class RightPanel extends JPanel{
        jlb = new JLabel("冲突窗口=0.005");
        jlb1 = new JLabel("帧间间隔=0.0009");
        jlb2 = new JLabel("干扰信号=0.0004");
-       jta = new JTextArea(7,12);
+
+       jta = new JTextArea(10,12);
        jta.setEditable(false);
        jta.setLineWrap(true);
        jsp = new JScrollPane(jta);
@@ -73,9 +74,9 @@ public class RightPanel extends JPanel{
        jp2.add(jlb1);
        jp2.add(jlb2);
 
+
        addslider();
        add(jp1);
        add(jp2);
-       setBackground(Color.LIGHT_GRAY);
     }
 }

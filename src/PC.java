@@ -5,11 +5,11 @@ import java.util.Random;
  */
 public class PC implements Runnable {
    private int ID,data=(int)(Math.random()*200+50),successtime=0,failtime=0,r,monitor=9;
-   int collision=50,speed=10,JammingSignal=4;
-   RightPanel RP;
-   private PCPanel pcPanel;
+   int collision=50,speed,JammingSignal=4;
+    private PCPanel pcPanel;
    private boolean iscollision=false;
    WLAN wlan;
+   RightPanel RP;
 
    public PC(int ID,WLAN wlan,PCPanel pcPanel,RightPanel RP,int speed){
         this.ID=ID;
@@ -20,7 +20,7 @@ public class PC implements Runnable {
    }
     @Override
     public void run() {
-        while (successtime < 5) {
+        while (successtime < 10) {
                 if (wlan.output== ID)
                     pcPanel.setState(2);
                 else pcPanel.setState(4);
@@ -40,10 +40,9 @@ public class PC implements Runnable {
                     else {waiting(); wlan.setState(0);}
                 } else {waiting(); wlan.setState(0);}
             }
-            pcPanel.setState(5);
+            pcPanel.setState(5);//传输完成，结束传输
         int tag=0;
         while(true) {
-
             if(wlan.output==ID&&tag==0) {pcPanel.setState(2);tag=1;}//传输完成后有可能接收数据
             if(wlan.output!=ID&&tag==1){pcPanel.setState(5);tag=0;}
             try {
@@ -61,9 +60,10 @@ public class PC implements Runnable {
         for (int i = 0; i <  collision; i++) //在争用期期间检测碰撞
         {   wlan.setState(1);
             new Thread(new BUS(IDto,collision,speed,wlan)).start();
-            if(i%5==0)pcPanel.jProgressBar.setValue(i*100/data);
+            if(i%5==0)
+                pcPanel.jProgressBar.setValue(i*100/data);
             if(!(wlan.output==IDto||wlan.output==0))//在信道出口检测到出现其他主机发出的信号则出现碰撞
-            {    System.out.println("发生冲突id"+wlan.output);
+            {    System.out.println("发生冲突,id="+wlan.output);
                 iscollision=true;
                 pcPanel.setState(3);
                 pcPanel.failtime(++failtime);
@@ -80,6 +80,7 @@ public class PC implements Runnable {
         for (int i = collision; i < data; i++) //争用期内无碰撞，将数据发送完毕
         {   new Thread(new BUS(IDto,collision,speed,wlan)).start();
             if(i%5==0)pcPanel.jProgressBar.setValue(i*100/data);
+            wlan.setState(1);
             try {
                 Thread.sleep(speed);
             } catch (InterruptedException e) {
@@ -102,7 +103,7 @@ public class PC implements Runnable {
             {   iscollision=false;
                 pcPanel.jProgressBar.setString("发送干扰信号");
                    for (int i = 0; i < JammingSignal; i++)//发生碰撞，发送人为干扰信号
-                {   new Thread(new BUS(11,collision,speed,wlan)).start();
+                {   new Thread(new BUS(-1,collision,speed,wlan)).start();
                     pcPanel.jProgressBar.setValue((i+1)*25);
                     try {
                         Thread.sleep(speed);

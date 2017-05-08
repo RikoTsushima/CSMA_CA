@@ -44,7 +44,7 @@ public CSMA_CD(int number){
         setVisible(true);
     }
     public static void main(String[] args){
-        String inputValue = JOptionPane.showInputDialog("请输入要模拟的主机数（1-10）","6");
+        String inputValue = JOptionPane.showInputDialog("请输入要模拟的主机数（2-20）","6");
         try {
             int a = Integer.parseInt(inputValue);
             new CSMA_CD(a);
