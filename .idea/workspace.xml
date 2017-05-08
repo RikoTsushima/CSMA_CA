@@ -31,11 +31,10 @@
       <file leaf-file-name="PCPanel.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PCPanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1296">
-              <caret line="55" column="36" lean-forward="false" selection-start-line="55" selection-start-column="36" selection-end-line="55" selection-end-column="36" />
+            <state relative-caret-position="411">
+              <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
               <folding>
-                <element signature="e#1760#1761#0" expanded="false" />
-                <element signature="e#1809#1810#0" expanded="false" />
+                <element signature="method#setState#1;class#PCPanel#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -44,36 +43,28 @@
       <file leaf-file-name="CSMA_CD.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CSMA_CD.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="30" column="41" lean-forward="false" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+            <state relative-caret-position="192">
+              <caret line="13" column="26" lean-forward="false" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="docComment;class#CSMA_CD#0" expanded="false" />
+                <element signature="method#CSMA_CD#0;class#CSMA_CD#0" expanded="false" />
+                <element signature="method#init#0;class#CSMA_CD#0" expanded="false" />
+                <element signature="class#1010:1429" expanded="false" />
                 <element signature="method#main#0;class#CSMA_CD#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BUS.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/BUS.java">
+      <file leaf-file-name="WLAN.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/WLAN.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyActionListener.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MyActionListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="18" column="47" lean-forward="false" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+            <state relative-caret-position="144">
+              <caret line="27" column="10" lean-forward="true" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#MyActionListener#0;class#MyActionListener#0" expanded="false" />
-                <element signature="method#actionPerformed#0;class#MyActionListener#0" expanded="false" />
+                <element signature="docComment;class#WLAN#0" expanded="false" />
+                <element signature="e#402#403#0" expanded="true" />
+                <element signature="e#428#429#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -82,19 +73,21 @@
       <file leaf-file-name="ShowPanel.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ShowPanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="71">
-              <caret line="16" column="46" lean-forward="false" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+            <state relative-caret-position="48">
+              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="docComment;class#ShowPanel#0" expanded="false" />
+                <element signature="method#ShowPanel#0;class#ShowPanel#0" expanded="false" />
+                <element signature="method#initPanel#0;class#ShowPanel#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NetPanel.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="NetPanel.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/NetPanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
+            <state relative-caret-position="-192">
               <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
@@ -104,13 +97,12 @@
       <file leaf-file-name="RightPanel.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/RightPanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="45" column="9" lean-forward="false" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+            <state relative-caret-position="720">
+              <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#addMessages#0;class#RightPanel#0" expanded="false" />
-                <element signature="class#1113:1408" expanded="false" />
-                <element signature="method#init#0;class#RightPanel#0" expanded="false" />
+                <element signature="class#1091:1386" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -119,11 +111,26 @@
       <file leaf-file-name="PC.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PC.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+            <state relative-caret-position="264">
+              <caret line="13" column="3" lean-forward="false" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
               <folding>
+                <element signature="docComment;class#PC#0" expanded="false" />
+                <element signature="method#PC#0;class#PC#0" expanded="false" />
                 <element signature="method#run#0;class#PC#0" expanded="false" />
+                <element signature="method#output#0;class#PC#0" expanded="false" />
                 <element signature="method#waiting#0;class#PC#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BUS.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BUS.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="486">
+              <caret line="37" column="30" lean-forward="true" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -158,18 +165,18 @@
       <list>
         <option value="$PROJECT_DIR$/src/Ethernet.java" />
         <option value="$PROJECT_DIR$/src/ShowCanvas.java" />
-        <option value="$PROJECT_DIR$/src/WLAN.java" />
         <option value="$PROJECT_DIR$/src/Delaythread.java" />
-        <option value="$PROJECT_DIR$/src/ShowPanel.java" />
-        <option value="$PROJECT_DIR$/src/PCPanel.java" />
         <option value="$PROJECT_DIR$/src/NetPanel.java" />
-        <option value="$PROJECT_DIR$/src/CSMA_CD.java" />
-        <option value="$PROJECT_DIR$/src/MyActionListener.java" />
-        <option value="$PROJECT_DIR$/src/RightPanel.java" />
-        <option value="$PROJECT_DIR$/src/PC.java" />
         <option value="$PROJECT_DIR$/src/queue.java" />
         <option value="$PROJECT_DIR$/src/DELAY.java" />
         <option value="$PROJECT_DIR$/src/BUS.java" />
+        <option value="$PROJECT_DIR$/src/MyActionListener.java" />
+        <option value="$PROJECT_DIR$/src/PC.java" />
+        <option value="$PROJECT_DIR$/src/ShowPanel.java" />
+        <option value="$PROJECT_DIR$/src/CSMA_CD.java" />
+        <option value="$PROJECT_DIR$/src/PCPanel.java" />
+        <option value="$PROJECT_DIR$/src/WLAN.java" />
+        <option value="$PROJECT_DIR$/src/RightPanel.java" />
       </list>
     </option>
   </component>
@@ -660,12 +667,12 @@
       <workItem from="1493995600341" duration="15454000" />
       <workItem from="1494044973576" duration="17543000" />
       <workItem from="1494128376374" duration="13361000" />
-      <workItem from="1494218255242" duration="2381000" />
+      <workItem from="1494218255242" duration="15936000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109927000" />
+    <option name="totallyTimeSpent" value="123482000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -719,7 +726,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -751,8 +758,7 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#addMessages#0;class#RightPanel#0" expanded="false" />
-            <element signature="class#1113:1408" expanded="false" />
-            <element signature="method#init#0;class#RightPanel#0" expanded="false" />
+            <element signature="class#1091:1386" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -762,7 +768,10 @@
         <state relative-caret-position="2352">
           <caret line="98" column="21" lean-forward="true" selection-start-line="98" selection-start-column="21" selection-end-line="98" selection-end-column="21" />
           <folding>
+            <element signature="docComment;class#PC#0" expanded="false" />
+            <element signature="method#PC#0;class#PC#0" expanded="false" />
             <element signature="method#run#0;class#PC#0" expanded="false" />
+            <element signature="method#output#0;class#PC#0" expanded="false" />
             <element signature="method#waiting#0;class#PC#0" expanded="false" />
           </folding>
         </state>
@@ -773,8 +782,10 @@
         <state relative-caret-position="744">
           <caret line="32" column="8" lean-forward="false" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="docComment;class#CSMA_CD#0" expanded="false" />
+            <element signature="method#CSMA_CD#0;class#CSMA_CD#0" expanded="false" />
+            <element signature="method#init#0;class#CSMA_CD#0" expanded="false" />
+            <element signature="class#1010:1429" expanded="false" />
             <element signature="method#main#0;class#CSMA_CD#0" expanded="false" />
           </folding>
         </state>
@@ -785,8 +796,8 @@
         <state relative-caret-position="456">
           <caret line="19" column="7" lean-forward="false" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
           <folding>
-            <element signature="e#1760#1761#0" expanded="false" />
-            <element signature="e#1809#1810#0" expanded="false" />
+            <element signature="e#1765#1766#0" expanded="false" />
+            <element signature="e#1814#1815#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -802,7 +813,9 @@
         <state relative-caret-position="144">
           <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#ShowPanel#0" expanded="false" />
+            <element signature="method#ShowPanel#0;class#ShowPanel#0" expanded="false" />
+            <element signature="method#initPanel#0;class#ShowPanel#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -830,8 +843,7 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#addMessages#0;class#RightPanel#0" expanded="false" />
-            <element signature="class#1113:1408" expanded="false" />
-            <element signature="method#init#0;class#RightPanel#0" expanded="false" />
+            <element signature="class#1091:1386" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -841,7 +853,10 @@
         <state relative-caret-position="1704">
           <caret line="71" column="14" lean-forward="true" selection-start-line="71" selection-start-column="14" selection-end-line="71" selection-end-column="14" />
           <folding>
+            <element signature="docComment;class#PC#0" expanded="false" />
+            <element signature="method#PC#0;class#PC#0" expanded="false" />
             <element signature="method#run#0;class#PC#0" expanded="false" />
+            <element signature="method#output#0;class#PC#0" expanded="false" />
             <element signature="method#waiting#0;class#PC#0" expanded="false" />
           </folding>
         </state>
@@ -852,8 +867,10 @@
         <state relative-caret-position="744">
           <caret line="32" column="8" lean-forward="false" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="docComment;class#CSMA_CD#0" expanded="false" />
+            <element signature="method#CSMA_CD#0;class#CSMA_CD#0" expanded="false" />
+            <element signature="method#init#0;class#CSMA_CD#0" expanded="false" />
+            <element signature="class#1010:1429" expanded="false" />
             <element signature="method#main#0;class#CSMA_CD#0" expanded="false" />
           </folding>
         </state>
@@ -864,8 +881,8 @@
         <state relative-caret-position="432">
           <caret line="19" column="7" lean-forward="false" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
           <folding>
-            <element signature="e#1760#1761#0" expanded="false" />
-            <element signature="e#1809#1810#0" expanded="false" />
+            <element signature="e#1765#1766#0" expanded="false" />
+            <element signature="e#1814#1815#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -881,7 +898,9 @@
         <state relative-caret-position="144">
           <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#ShowPanel#0" expanded="false" />
+            <element signature="method#ShowPanel#0;class#ShowPanel#0" expanded="false" />
+            <element signature="method#initPanel#0;class#ShowPanel#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -909,8 +928,7 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#addMessages#0;class#RightPanel#0" expanded="false" />
-            <element signature="class#1113:1408" expanded="false" />
-            <element signature="method#init#0;class#RightPanel#0" expanded="false" />
+            <element signature="class#1091:1386" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -920,7 +938,10 @@
         <state relative-caret-position="840">
           <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
           <folding>
+            <element signature="docComment;class#PC#0" expanded="false" />
+            <element signature="method#PC#0;class#PC#0" expanded="false" />
             <element signature="method#run#0;class#PC#0" expanded="false" />
+            <element signature="method#output#0;class#PC#0" expanded="false" />
             <element signature="method#waiting#0;class#PC#0" expanded="false" />
           </folding>
         </state>
@@ -931,8 +952,10 @@
         <state relative-caret-position="552">
           <caret line="26" column="34" lean-forward="false" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="docComment;class#CSMA_CD#0" expanded="false" />
+            <element signature="method#CSMA_CD#0;class#CSMA_CD#0" expanded="false" />
+            <element signature="method#init#0;class#CSMA_CD#0" expanded="false" />
+            <element signature="class#1010:1429" expanded="false" />
             <element signature="method#main#0;class#CSMA_CD#0" expanded="false" />
           </folding>
         </state>
@@ -949,7 +972,9 @@
         <state relative-caret-position="552">
           <caret line="26" column="4" lean-forward="false" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#ShowPanel#0" expanded="false" />
+            <element signature="method#ShowPanel#0;class#ShowPanel#0" expanded="false" />
+            <element signature="method#initPanel#0;class#ShowPanel#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -967,7 +992,10 @@
         <state relative-caret-position="336">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
+            <element signature="docComment;class#PC#0" expanded="false" />
+            <element signature="method#PC#0;class#PC#0" expanded="false" />
             <element signature="method#run#0;class#PC#0" expanded="false" />
+            <element signature="method#output#0;class#PC#0" expanded="false" />
             <element signature="method#waiting#0;class#PC#0" expanded="false" />
           </folding>
         </state>
@@ -988,8 +1016,7 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#addMessages#0;class#RightPanel#0" expanded="false" />
-            <element signature="class#1113:1408" expanded="false" />
-            <element signature="method#init#0;class#RightPanel#0" expanded="false" />
+            <element signature="class#1091:1386" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -999,8 +1026,8 @@
         <state relative-caret-position="240">
           <caret line="10" column="44" lean-forward="false" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
           <folding>
-            <element signature="e#1760#1761#0" expanded="false" />
-            <element signature="e#1809#1810#0" expanded="false" />
+            <element signature="e#1765#1766#0" expanded="false" />
+            <element signature="e#1814#1815#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1010,8 +1037,10 @@
         <state relative-caret-position="288">
           <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="docComment;class#CSMA_CD#0" expanded="false" />
+            <element signature="method#CSMA_CD#0;class#CSMA_CD#0" expanded="false" />
+            <element signature="method#init#0;class#CSMA_CD#0" expanded="false" />
+            <element signature="class#1010:1429" expanded="false" />
             <element signature="method#main#0;class#CSMA_CD#0" expanded="false" />
           </folding>
         </state>
@@ -1023,7 +1052,9 @@
         <state relative-caret-position="504">
           <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#ShowPanel#0" expanded="false" />
+            <element signature="method#ShowPanel#0;class#ShowPanel#0" expanded="false" />
+            <element signature="method#initPanel#0;class#ShowPanel#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1035,8 +1066,7 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#addMessages#0;class#RightPanel#0" expanded="false" />
-            <element signature="class#1113:1408" expanded="false" />
-            <element signature="method#init#0;class#RightPanel#0" expanded="false" />
+            <element signature="class#1091:1386" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1046,8 +1076,8 @@
         <state relative-caret-position="264">
           <caret line="11" column="41" lean-forward="true" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
           <folding>
-            <element signature="e#1760#1761#0" expanded="false" />
-            <element signature="e#1809#1810#0" expanded="false" />
+            <element signature="e#1765#1766#0" expanded="false" />
+            <element signature="e#1814#1815#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1059,122 +1089,126 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/WLAN.java">
+    <entry file="file://$PROJECT_DIR$/src/DELAY.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+        <state relative-caret-position="482">
+          <caret line="21" column="11" lean-forward="false" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Delaythread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        <state relative-caret-position="384">
+          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PCPanel.java">
+    <entry file="file://$PROJECT_DIR$/src/BUS.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1296">
-          <caret line="55" column="36" lean-forward="false" selection-start-line="55" selection-start-column="36" selection-end-line="55" selection-end-column="36" />
-          <folding>
-            <element signature="e#1760#1761#0" expanded="false" />
-            <element signature="e#1809#1810#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        <state relative-caret-position="486">
+          <caret line="37" column="30" lean-forward="true" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#188#197#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MyActionListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="18" column="47" lean-forward="false" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+        <state relative-caret-position="170">
+          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="13" column="3" lean-forward="false" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#MyActionListener#0;class#MyActionListener#0" expanded="false" />
-            <element signature="method#actionPerformed#0;class#MyActionListener#0" expanded="false" />
+            <element signature="docComment;class#PC#0" expanded="false" />
+            <element signature="method#PC#0;class#PC#0" expanded="false" />
+            <element signature="method#run#0;class#PC#0" expanded="false" />
+            <element signature="method#output#0;class#PC#0" expanded="false" />
+            <element signature="method#waiting#0;class#PC#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ShowPanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="16" column="46" lean-forward="false" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+        <state relative-caret-position="48">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#ShowPanel#0" expanded="false" />
+            <element signature="method#ShowPanel#0;class#ShowPanel#0" expanded="false" />
+            <element signature="method#initPanel#0;class#ShowPanel#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PCPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+          <folding>
+            <element signature="method#setState#1;class#PCPanel#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CSMA_CD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="13" column="26" lean-forward="false" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+          <folding>
+            <element signature="docComment;class#CSMA_CD#0" expanded="false" />
+            <element signature="method#CSMA_CD#0;class#CSMA_CD#0" expanded="false" />
+            <element signature="method#init#0;class#CSMA_CD#0" expanded="false" />
+            <element signature="class#1010:1429" expanded="false" />
+            <element signature="method#main#0;class#CSMA_CD#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WLAN.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="27" column="10" lean-forward="true" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+          <folding>
+            <element signature="docComment;class#WLAN#0" expanded="false" />
+            <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RightPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#addMessages#0;class#RightPanel#0" expanded="false" />
+            <element signature="class#1091:1386" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/NetPanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
+        <state relative-caret-position="-192">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RightPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="45" column="9" lean-forward="false" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#addMessages#0;class#RightPanel#0" expanded="false" />
-            <element signature="class#1113:1408" expanded="false" />
-            <element signature="method#init#0;class#RightPanel#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
-          <folding>
-            <element signature="method#run#0;class#PC#0" expanded="false" />
-            <element signature="method#waiting#0;class#PC#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DELAY.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CSMA_CD.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="30" column="41" lean-forward="false" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;class#CSMA_CD#0" expanded="false" />
-            <element signature="method#main#0;class#CSMA_CD#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BUS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
           <folding />
         </state>
       </provider>

@@ -10,24 +10,29 @@ public class PCPanel extends JPanel{
    JProgressBar jProgressBar;
     public PCPanel(int ID){
         setLayout(new BoxLayout(this,BoxLayout.Y_AXIS));
+
         jlb = new JLabel("PC"+ID);
         jlb.setAlignmentX((float)0.5);
+
         jlb1 = new JLabel(new ImageIcon("src/pc.png"));
         jlb1.setAlignmentX((float) 0.50);
+
         jlb3 = new JLabel("成功次数"+"0");
         jlb3.setAlignmentX((float) 0.50);
+
         jlb2 = new JLabel("失败次数"+"0");
         jlb2.setAlignmentX((float) 0.50);
+
         jProgressBar = new JProgressBar();
         jProgressBar.setPreferredSize(new Dimension(10,18));
         jProgressBar.setStringPainted(true);
+
         add(jlb1);
         add(Box.createVerticalStrut(-35));
         add(jlb);
         add(Box.createVerticalStrut(11));
         add(jProgressBar);
         add(jlb3);
-
         add(jlb2);
         setState(0);
     }
@@ -63,7 +68,8 @@ public void  setState(int state,int r){
 public void successtime(int time){
     jlb3.setText("成功次数"+String.valueOf(time));
 }
-public void failtime(int time){jlb2.setText("失败次数"+String.valueOf(time));}
-
+public void failtime(int time){
+    jlb2.setText("失败次数"+String.valueOf(time));
+}
 
 }

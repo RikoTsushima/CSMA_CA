@@ -1,18 +1,23 @@
 import java.awt.*;
+import java.util.concurrent.ConcurrentLinkedQueue;
+
 
 /**
  * Created by tiyan on 2017/5/4.
  */
 public class WLAN extends Canvas {
-   int number,BUS=0;
+   int number;
+   ConcurrentLinkedQueue<Integer> bus;
+   int output=0;
     public WLAN(int number){
     this.number=number;
     this.setBounds(0,0,50,50);
+    this.bus=new ConcurrentLinkedQueue<>();
     }
 
     @Override
     public void paint(Graphics g) {
-       setState(BUS);
+       setState(0);
     }
     public void setState(int BUS){
         Graphics g=getGraphics();
@@ -27,8 +32,10 @@ public class WLAN extends Canvas {
                {
                    g.fillRect((this.getWidth()/number)*(2*i+1),33,5,17);
                    g.fillRect((this.getWidth()/number)*(2*i+1),0,5,17);
-               }}
-           else{
+               }
+           }
+           else
+           {
                for(int i=0;i<number/2+1;i++)
                {
                    g.fillRect(this.getWidth() / (number + 1)*(2*i+1), 33, 5, 17);

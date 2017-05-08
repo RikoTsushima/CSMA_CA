@@ -1,5 +1,5 @@
 import javax.swing.*;
-import java.awt.*;
+
 
 
 /**
@@ -16,10 +16,12 @@ public class ShowPanel extends JPanel {
     public void initPanel(int number){
         setLayout(new BoxLayout(this,BoxLayout.Y_AXIS));
         NP[0] = new NetPanel(number,0);
-        if(number%2==0){
-        NP[1] = new NetPanel(number,1);
+        if(number%2==0)
+        {
+            NP[1] = new NetPanel(number,1);
         }
-        else {
+        else
+        {
             NP[1] = new NetPanel(number,1);
         }
         wlan = new WLAN(number);

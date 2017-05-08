@@ -9,12 +9,11 @@ import java.awt.*;
 public class RightPanel extends JPanel{
     JButton jbt1;
     JLabel jlb,jlb1,jlb2;
-   JScrollPane jsp;
-   JTextArea jta;
-   JPanel jp2,jp1;
-   JTextField speedtf;
+    JScrollPane jsp;
+    JTextArea jta;
+    JPanel jp2,jp1;
+    JTextField speedtf;
     JSlider jsl;
-   ChangeListener changeListener;
     Point p = new Point();
     int height=15,speed=50;
     public RightPanel(){
@@ -29,28 +28,29 @@ public class RightPanel extends JPanel{
        this.jsp.getViewport().setViewPosition(p);
    }
 
-   public void addslider(){
+    public void addslider(){
        jsl = new JSlider(10,100);
        jsl.setSize(60,10);
        jsl.setValue(40);
+       jsl.setPreferredSize(new Dimension(50,20));
+
        speedtf = new JTextField("运行速度：40");
        speedtf.setEditable(false);
-       jsl.setPreferredSize(new Dimension(50,20));
-       changeListener = new ChangeListener() {
+
+       jsl.addChangeListener(new ChangeListener() {
            @Override
            public void stateChanged(ChangeEvent e) {
                JSlider source = (JSlider) e.getSource();
                speedtf.setText("运行速度："+String.valueOf(source.getValue()));
                speed=7500/(source.getValue()*3);
            }
-       };
-       jsl.addChangeListener(changeListener);
+       });
        jp2.add(speedtf);
        jp2.add(jsl);
        jp2.add(Box.createVerticalStrut(20));
-   }
+    }
 
-   public void init(){
+    public void init(){
        setLayout(new GridLayout(2,1));
        jbt1 = new JButton("开始演示");
        jlb = new JLabel("冲突窗口=0.005");
@@ -58,20 +58,24 @@ public class RightPanel extends JPanel{
        jlb2 = new JLabel("干扰信号=0.0004");
        jta = new JTextArea(7,12);
        jta.setEditable(false);
+       jta.setLineWrap(true);
+       jsp = new JScrollPane(jta);
+
        jp1 = new JPanel();
        jp2 = new JPanel();
        jp2.setLayout(new BoxLayout(jp2,BoxLayout.Y_AXIS));
-       jta.setLineWrap(true);
-       jsp = new JScrollPane(jta);
+
+
        jp1.add(jsp);
+
        jp2.add(jbt1);
        jp2.add(jlb);
        jp2.add(jlb1);
        jp2.add(jlb2);
+
        addslider();
        add(jp1);
        add(jp2);
        setBackground(Color.LIGHT_GRAY);
-   }
-
+    }
 }

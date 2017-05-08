@@ -1,5 +1,7 @@
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 
 /**
@@ -8,12 +10,10 @@ import java.awt.*;
 public class CSMA_CD extends JFrame {
 ShowPanel SP;
 RightPanel RP;
-Thread PCs[] = new Thread[10];
 
 public CSMA_CD(int number){
        super("CSMA/CD模拟");
         init(number);
-
     }
     public void init(int number){
         Container contentPane = getContentPane();
@@ -27,14 +27,24 @@ public CSMA_CD(int number){
         springLayout.putConstraint(SpringLayout.EAST,contentPane,5,SpringLayout.EAST,RP);
         springLayout.putConstraint(SpringLayout.EAST,contentPane,150,SpringLayout.WEST,RP);
         contentPane.add(RP);
-        RP.jbt1.addActionListener(new MyActionListener(PCs,RP,SP,number));
+        RP.jbt1.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                if(e.getSource().equals(RP.jbt1)){
+                    for(int i=0;i<number;i++)
+                    {
+                        new Thread(new PC(i+1,SP.wlan,SP.NP[i%2].PCp[i/2],RP,RP.speed)).start();
+                    }
+                }
+                RP.jsl.setEnabled(false);
+            }
+        });
         setBounds(0,0,number*70+150,325);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setVisible(true);
-
     }
     public static void main(String[] args){
-        String inputValue = JOptionPane.showInputDialog("请输入要模拟的主机数（1-10） 推荐：6");
+        String inputValue = JOptionPane.showInputDialog("请输入要模拟的主机数（1-10）","6");
         try {
             int a = Integer.parseInt(inputValue);
             new CSMA_CD(a);
